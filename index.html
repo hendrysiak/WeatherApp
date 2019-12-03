@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="submit" id="weather">
+        <label for="city">
+      <input type="text" name="city" placeholder = "Enter name of city here..." class="input-day">
+    </label>
+        <button type="submit" class="button-day">Check weather</button>
+    </form>
+    <div class="wrapper-inside">
+        <section id="result">
+            <h1>Weather for: <span class="result__city-name"></span></h1>
+            <h2>Date of request (for client): <span class="result__date"></span></h2>
+            <h2>Local time: <span class="result__local-date"></span></h2>
+            <h2>Weather: <span class="result__result-weather"></span></h2>
+            <h2>Temperature: <span class="result__result-temperature"></span>&#176</h2>
+            <div class="result__weather"></div>
+        </section>
+        <aside class="thermometer">
+            <div class="thermometer__shape">
+                <ul class="thermometer__radio">
+                    <li class="thermometer__item">50</li>
+                    <li class="thermometer__item">45</li>
+                    <li class="thermometer__item">40</li>
+                    <li class="thermometer__item">35</li>
+                    <li class="thermometer__item">30</li>
+                    <li class="thermometer__item">25</li>
+                    <li class="thermometer__item">20</li>
+                    <li class="thermometer__item">15</li>
+                    <li class="thermometer__item">10</li>
+                    <li class="thermometer__item">5</li>
+                    <li class="thermometer__item">0</li>
+                    <li class="thermometer__item">-5</li>
+                    <li class="thermometer__item">-10</li>
+                    <li class="thermometer__item">-15</li>
+                    <li class="thermometer__item">-20</li>
+                    <li class="thermometer__item">-25</li>
+                    <li class="thermometer__item">-30</li>
+                    <li class="thermometer__item">-35</li>
+                    <li class="thermometer__item">-40</li>
+                    <li class="thermometer__item">-45</li>
+                    <li class="thermometer__item">-50</li>
+                </ul>
+                <div id="degrees" class="degrees"></div>
+            </div>
+
+        </aside>
+    </div>
+
+</body>
+
+</html>
