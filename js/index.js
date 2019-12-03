@@ -1,5 +1,5 @@
 const form = document.getElementById("weather");
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.$API_KEY;
 
 form.addEventListener('submit', (event) => getData(event))
 
